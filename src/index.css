@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/*
+Heading Font Family  Body Font Family 
+*/
+
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #241fb3;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+article {
+  align-content: center;
+  margin-top: 3rem;
+  margin-left: 30%;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 32rem;
+  width: 34rem;
+  border-radius: 20px;
+  background: #474bff;
+  background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  padding: 20px;
+  text-align: center;
+  -webkit-box-shadow: 17px 15.5px 11.5px 14.5px #dddddd;
+  -moz-box-shadow: 17px 15.5px 11.5px 14.5px #dddddd;
+  box-shadow: 17px 15.5px 11.5px 14.5px #dddddd;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 30rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.underline {
+  width: 21rem;
+  height: 4px;
+  background-color: #000000;
+}
+
+
+.glitch-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.glitch {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #241fb3;
+  letter-spacing: 5px;
+  animation: shift 4s ease-in-out infinite alternate;
+  transform: skewX(0deg);
+  z-index: 1;
+}
+
+@keyframes shift {
+
+  0%,
+  40%,
+  44%,
+  58%,
+  61%,
+  65%,
+  69%,
+  73%,
+  100% {
+    transform: skewX(0deg);
+  }
+
+  41% {
+    transform: skewX(10deg);
+  }
+
+  42% {
+    transform: skewX(-10deg);
+  }
+
+  59% {
+    transform: skewX(40deg) skewY(10deg);
+  }
+
+  60% {
+    transform: skewX(-40deg) skewY(-10deg);
+  }
+
+  63% {
+    transform: skewX(10deg) skewY(-5deg);
+  }
+
+  70% {
+    transform: skewX(-50deg) skewY(-20deg);
+  }
+
+  71% {
+    transform: skewX(10deg) skewY(-10deg);
+  }
+}
+
+
+button {
+  margin: 25px;
+  box-shadow: inset 0px 1px 0px 0px #241fb3;
+  background: linear-gradient(to bottom, #241fb3 5%, #241fb3 100%);
+  background-color: #241fb3;
+  border-radius: 6px;
+  border: 1px solid #241fb3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #241fb3;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #241fb3 5%, #241fb3 100%);
+  background-color: #241fb3;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+
+
+
+.prev-btn,
+.next-btn {
+  padding: 15px;
+  width: 5.5rem;
+  height: 5rem;
+  font-size: 3.5rem;
+}
+
+.random-btn {
+  margin: 1rem;
+  width: 25rem;
+  height: 5rem;
+  font-size: 3.5rem;
+}
