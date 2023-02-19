@@ -28,7 +28,7 @@ p {
 
 
 article {
-  margin-left: 30rem;
+  margin-left: 31vw;
   margin-top: 3rem;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -173,4 +173,10 @@ button:active {
   width: 25rem;
   height: 5rem;
   font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  article {
+    margin-left: 22vw;
+  }
 }
