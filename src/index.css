@@ -26,14 +26,13 @@ p {
 }
 
 
+
 article {
-  align-content: center;
+  margin-left: 30rem;
   margin-top: 3rem;
-  margin-left: 30%;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   width: 32rem;
-  width: 34rem;
   border-radius: 20px;
   background: #474bff;
   background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
@@ -44,6 +43,9 @@ article {
   -moz-box-shadow: 17px 15.5px 11.5px 14.5px #dddddd;
   box-shadow: 17px 15.5px 11.5px 14.5px #dddddd;
 }
+
+
+
 
 img {
   width: 20rem;
@@ -58,7 +60,7 @@ img {
 .underline {
   width: 21rem;
   height: 4px;
-  background-color: #000000;
+  background-color: red;
 }
 
 

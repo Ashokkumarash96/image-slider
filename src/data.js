@@ -4,7 +4,7 @@ const reviews = [
     name: "Emma",
     job: "Software Developer",
     image:
-      "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     text: "I recently purchased the XYZ vacuum cleaner and have been using it for several weeks now. Overall, I am very impressed with this product. The vacuum cleaner is powerful and effective at picking up dirt and debris, even in hard-to-reach areas.",
   },
   {
@@ -12,7 +12,7 @@ const reviews = [
     name: "Liam",
     job: "Accountant",
     image:
-      "https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     text: "One of the features I really appreciate is the long cord, which allows me to easily clean multiple rooms without having to switch outlets. The vacuum is also very lightweight, making it easy to carry up and down stairs.",
   },
   {
